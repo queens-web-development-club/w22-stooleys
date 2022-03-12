@@ -66,11 +66,12 @@ const Landing = () => {
       <Image
         src={img}
         alt="hi"
-        height="100%"
-        width="auto"
+        height="auto"
+        width="60vw"
         pos="absolute"
-        top="0"
+        top="-25%"
         right="0"
+        zIndex="100"
       ></Image>
     </Flex>
   );

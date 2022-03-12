@@ -11,9 +11,9 @@ import {
 
 const Menu = () => {
   return (
-    <Box h="100vh" w="100vw" bg="tomato">
+    <Flex h="100vh" w="100vw" bg="tomato" align="center">
       <Text>Menu</Text>
-    </Box>
+    </Flex>
   );
 };
 

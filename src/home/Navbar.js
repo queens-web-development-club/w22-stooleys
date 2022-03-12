@@ -6,9 +6,16 @@ import { Link as ReachLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <Box w="70%" pl="5%" pos="absolute" top="2%" zIndex="99">
+    <Box
+      w="100%"
+      pt="1%"
+      pl="5%"
+      bg="#0E0E0E"
+      zIndex="0"
+      //  pos="absolute" top="2%" zIndex="99"
+    >
       <HStack spacing="3.5rem">
-        <Image src={Logo} boxSize="8%" mr="50px"></Image>
+        <Image src={Logo} boxSize="5%" mr="50px"></Image>
         <Link
           variant="ghost"
           color="#FEFFFF"
