@@ -18,7 +18,7 @@ const Item = (data) => {
         <Heading fontSize="l" color="#BEBABA">
           {data.item.name}
         </Heading>
-        <Flex justifyContent="space-between">
+        <Flex>
           {data.item.sizes.map((size) => {
             return (
               <Text
@@ -26,6 +26,7 @@ const Item = (data) => {
                 fontSize="sm"
                 mt="0.8rem"
                 fontWeight="bolder"
+                mr="2rem"
               >
                 {`${size.name} • $${data.item.price + size.price}`}
               </Text>
