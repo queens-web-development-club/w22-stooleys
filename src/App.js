@@ -6,6 +6,7 @@ import "@fontsource/lexend/700.css";
 import "@fontsource/fraunces/700.css";
 import Home from "./home/Home.js";
 import Menu from "./menu-drinks/Menu";
+import ContactUs from "./contact-us/ContactUs";
 import Footer from "./home/Footer";
 import {
   BrowserRouter as Router,
@@ -46,6 +47,7 @@ function App() {
           <Route path="/menu" element={<Menu />} />
           <Route path="/" element={<Home />} />
           <Route path="/catering" element={<Catering />} />
+          <Route path="/contact" element={<ContactUs />} />
         </Routes>
       </Router>
       <Footer />

@@ -91,7 +91,7 @@ export default function Navbar() {
             color: "#FFEEEE",
           }}
           as={ReachLink}
-          to="/"
+          to="/contact"
         >
           Contact
         </Link>
